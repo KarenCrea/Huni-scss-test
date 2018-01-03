@@ -166,7 +166,7 @@ button{
                     display: flex;
                     color: $color-pink;
                     
-                    p{margin: 0 0 0 100px;}
+                    p{margin: 0 0 0 10px;}
                     
                     .buttonSocial0{
                         margin-left: 230px;
@@ -207,6 +207,8 @@ button{
     #page .buttonSocial2 span{margin-right: 10px;}
     
     #ttAsideCasAside{
+        
+        figure{margin: 0;}
         width: 1225px;
         display: flex;
         margin: 0 auto;
@@ -232,12 +234,34 @@ button{
                 }
                 
                 .lienSocialBlog{
+                    
+                    p{
+                        margin: 0;
+                        color: $color-pink;
+                        width: 200px;
+                        float: left;
+                    } 
+                    .buttonSocial1,
+                    .buttonSocial2{
+                        padding: 5px 20px;
+                        color: white;
+                        background-color: #4267b2;
+                    }
+                    
+                    .buttonSocial2{
+                        background-color:#1b95e0;
+                    }
+                    .fa{
+                        color: white;
+                        margin-right: 10px;
+                    }
+                    
                     font-family: $fontRoboto;
                     font-weight: 400;
                     width: 500px;
                     margin: 80px 0 0 420px ;
 
-                    p{margin: 0 ;}
+                    
 
                     .buttonSocial0{margin: 0 0 0 50px;}
                 }
