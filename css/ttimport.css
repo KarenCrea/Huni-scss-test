@@ -296,35 +296,43 @@ main {
         /*----/card1,card2------*/ }
         main #pricing .ttPricing .card .textArticle {
           position: absolute;
-          top: 70px; }
+          top: 70px;
+          padding-left: 30px; }
           main #pricing .ttPricing .card .textArticle .get {
             border: 1px solid #5842dc;
             padding: 10px 60px;
             position: relative;
-            left: 10%; }
+            left: 15%;
+            top: 50px; }
+        main #pricing .ttPricing .card .blablacard .planPay {
+          width: 260px;
+          margin-left: 40px; }
+        main #pricing .ttPricing .card .blablacard li {
+          margin-bottom: 20px; }
+        main #pricing .ttPricing .card .textArticle a:hover {
+          color: white;
+          background: #5842dc; }
         main #pricing .ttPricing .card .card1 {
           margin: 0 20px 0 0; }
-        main #pricing .ttPricing .card .card2 .cardRond {
-          left: 740px; }
         main #pricing .ttPricing .card .card1, main #pricing .ttPricing .card .card2 {
           width: 380px;
           height: 600px; }
           main #pricing .ttPricing .card .card1 .cardRectangle, main #pricing .ttPricing .card .card2 .cardRectangle {
             width: 370px;
-            height: 590px;
+            height: 600px;
             background: white; }
           main #pricing .ttPricing .card .card1 .cardRond, main #pricing .ttPricing .card .card2 .cardRond {
             width: 470px;
             height: 100px;
             margin: 25px auto;
-            background-color: transparent;
+            background-color: #c62650;
             border-radius: 50%;
             position: absolute;
-            top: -100px;
-            left: 345px; }
-          main #pricing .ttPricing .card .card1 .textArticle a:hover, main #pricing .ttPricing .card .card2 .textArticle a:hover {
-            color: white;
-            background: #5842dc; }
+            top: -100px; }
+        main #pricing .ttPricing .card .card2 .cardRond {
+          left: 740px; }
+        main #pricing .ttPricing .card .card1 .cardRond {
+          left: 345px; }
   main #huniBenefits {
     margin: 0 auto;
     padding: 60px 0 0; }
@@ -455,7 +463,8 @@ footer {
   footer .recherche {
     width: 100%;
     text-align: center;
-    padding-bottom: 150px; }
+    padding-bottom: 150px;
+    margin-left: 5%; }
     footer .recherche input {
       width: 860px;
       border: 2px white solid;
@@ -655,7 +664,8 @@ button {
       width: 60px;
       height: 60px;
       background: #e9e9e9;
-      float: left; }
+      float: left;
+      margin-right: 20px; }
     #page #map .iconCont:hover {
       background: #c62650; }
     #page #map .iconCont span {
@@ -665,7 +675,10 @@ button {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      color: #c62650; }
+      color: #c62650;
+      padding: 20px; }
+    #page #map .iconCont span:hover {
+      color: white; }
     #page #map figcaption p {
       padding: 15px 0 0 70px;
       width: 400px; }
@@ -896,3 +909,6 @@ button {
         padding: 0; }
 
 /*----/page------*/
+#blog .fa {
+  color: white;
+  margin-right: 10px; }

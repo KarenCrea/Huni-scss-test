@@ -333,18 +333,32 @@ main{
                 .textArticle{
                     position: absolute;
                     top:70px;
-                    
+                    padding-left: 30px;
                 
                     .get{
                     border: 1px solid $color-purple;
                     padding: 10px 60px;
                     position: relative;
-                    left: 10%;
+                    left: 15%;
+                    top: 50px;
                     }
                 }
                 
+                .blablacard{
+                
+                    .planPay{
+                        width: 260px;
+                        margin-left: 40px;
+                    }
+                    li{margin-bottom: 20px;}
+                }
+                    
+                .textArticle a:hover{
+                        color: white;
+                        background: $color-purple;
+                    }
+                
                 .card1{margin: 0 20px 0 0;}
-                .card2 .cardRond{left: 740px;}
                 
                 .card1,.card2{
                     width: 380px;
@@ -352,7 +366,7 @@ main{
                     
                     .cardRectangle{
                         width:370px;
-                        height:590px;
+                        height:600px;
                         background:white;
                     }
 
@@ -360,19 +374,15 @@ main{
                       width: 470px;
                       height: 100px;
                       margin: 25px auto;
-                      background-color: transparent;
+                      background-color: $color-pink;
                       border-radius: 50%;
                       position: absolute;
                       top: -100px;
-                      left: 345px;
                     }
-                        
-                    
-                    .textArticle a:hover{
-                            color: white;
-                            background: $color-purple;
-                        }
                 }/*----/card1,card2------*/
+                .card2 .cardRond{left: 740px;}
+                .card1 .cardRond{left: 345px;}
+                
             }/*----/card------*/   
         }/*----/ttPricing------*/        
     }/*----/pricing------*/
@@ -547,6 +557,7 @@ footer{
         width: 100%;
         text-align: center;
         padding-bottom: 150px;
+        margin-left:5%;
         
         input{
             width: 860px;
